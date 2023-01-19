@@ -1,0 +1,21 @@
+//1. Crearemos un objeto coche que tendra las siguientes propiedades: 
+//marca (String),
+//modelo (String), 
+//año de fabricación (Number), 
+//velocidad (Number), 
+//arrancado(Boolean)
+//acelerar(incrementa en 10 la velocidad),
+
+let coche = {
+    marca: 'Seat',
+    modelo: 'León',
+    fabricacion: 2018,
+    velocidad: 120,
+    arrancado: 'true',
+    acelerar: function () {
+        this.velocidad += 10
+    }
+}
+        console.log(coche['velocidad'])
+        coche.acelerar()
+        console.log(coche['velocidad'])
