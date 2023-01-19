@@ -1,0 +1,24 @@
+//arrancarApagar(arranca o apaga el motor)
+let coche = {
+    marca: 'Seat',
+    modelo: 'León',
+    fabricacion: 2018,
+    velocidad: 120,
+    arrancado: true,
+    acelerar: function () {
+        this.velocidad += 10
+    },
+    parar: function () {
+        this.velocidad =0
+    },
+    arrancarApagar: function () {
+        if (this.arrancado = true) {
+            this.arrancado = false;
+        }
+        else {
+            this.arrancado = true
+        }
+    }
+}
+
+    console.log(coche['arrancado'])
