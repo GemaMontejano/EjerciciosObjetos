@@ -1,0 +1,9 @@
+//2. Crearemos un objeto persona que tendra las siguientes propiedades:
+//nombre (String), apellidos (Array), edad (Number),direccion (String)
+let persona = {
+    nombre: 'David',
+    apellidos: 'López Hernández',
+    edad: 22,
+    direccion: 'C/ Ave del Paraíso, número 7',
+}
+console.log("¡Hola! Me llamo " + persona['nombre'] + " " + persona['apellidos'] + ", tengo" + " " + persona['edad'] + " " + "años y vivo en" + " " + persona['direccion'])
