@@ -22,3 +22,6 @@ let coche = {
 }
 
     console.log(coche['arrancado'])
+    coche.arrancarApagar()
+    console.log(coche['arrancado'])
+
